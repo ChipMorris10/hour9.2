@@ -1,0 +1,28 @@
+article {
+  -webkit-column-count: 3;
+  -webkit-column-gap: 21px;
+  column-count: 3;
+  column-gap: 21px;
+  -webkit-column-rule-width: 1px;
+  column-rule: 1px;
+  -webkit-column-rule-style: solid;
+  column-rule-style: solid;
+  -webkit-column-rule-color: #000;
+  column-rule-color: #000;
+}
+
+h1 {
+  text-align: center;
+  -webkit-column-span: all;
+  column-span: all;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+
+footer {
+  -webkit-column-span: all;
+  column-span: all;
+}
